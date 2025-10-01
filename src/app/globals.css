@@ -42,20 +42,22 @@ body.video-playing .section:not(.video-section) {
 }
 
 .logo-entain {
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 700;
   letter-spacing: -1px;
   color: #1a1a1a;
+  position: relative;
+  top: -8px;
 }
 
 .partnership-icon {
-  font-size: 32px;
+  font-size: 48px;
   opacity: 0.3;
   font-weight: 300;
 }
 
 .logo-wellness {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 400;
   color: #1a1a1a;
   font-family: Georgia, serif;
@@ -64,7 +66,7 @@ body.video-playing .section:not(.video-section) {
 .header h1 {
   font-size: 64px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   line-height: 1.1;
   letter-spacing: -1.5px;
   max-width: 1000px;

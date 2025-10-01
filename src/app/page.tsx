@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   useEffect(() => {
@@ -51,7 +52,9 @@ export default function Home() {
       <div className="header">
         <div className="container">
           <div className="logos">
-            <div className="logo-entain">Σntain</div>
+            <div className="logo-entain">
+              <Image src="/image.png" alt="Entain" width={200} height={60} priority />
+            </div>
             <div className="partnership-icon">×</div>
             <div className="logo-wellness">The Wellness</div>
           </div>
@@ -109,17 +112,17 @@ export default function Home() {
 
             <div className="feature-item">
               <h3>Empower Through Knowledge</h3>
-              <p>Comprehensive health data gives employees control and confidence. Hospital-grade diagnostics reviewed by GMC-registered physicians trained at Imperial College London, with expertise spanning preventive cardiology, endocrinology, and sports medicine. 30-minute video consultations delivering evidence-based guidance on optimizing health and preventing disease.</p>
+              <p>Comprehensive health data gives employees control and confidence. Hospital-grade diagnostics reviewed by the best doctors, with expertise spanning preventive cardiology, endocrinology, and sports medicine. 20-minute video consultations delivering evidence-based guidance on optimising health and preventing disease.</p>
             </div>
 
             <div className="feature-item">
               <h3>Support Your Transformation</h3>
-              <p>UK market recovery requires healthy, engaged teams. AUSTRAC proceedings create stress. Ongoing regulatory changes demand resilience. We track stress biomarkers and provide ongoing physician support—helping your people navigate change while protecting their health.</p>
+              <p>UK market recovery requires healthy, engaged teams. Ongoing regulatory changes demand resilience. We track stress biomarkers and provide ongoing physician support—helping your people navigate change while protecting their health.</p>
             </div>
 
             <div className="feature-item">
               <h3>Data-Driven Wellness Strategy</h3>
-              <p>Population-level health insights help you design more effective programmes. Our machine learning algorithms—developed in collaboration with Oxford Wearables and validated through peer-reviewed research—analyze 500,000+ health assessments to identify workforce-specific risk patterns and enable tailored interventions. Real-time dashboards for your wellness team with ROI tracking, ESG reporting, and benchmarking against industry standards.</p>
+              <p>Population-level health insights help you design more effective programmes. Our machine learning algorithms—developed in collaboration with Oxford University Professors and validated through peer-reviewed research—analyse 500,000+ health assessments to identify workforce-specific risk patterns and enable tailored interventions. Dashboards for your wellness team with ROI tracking, ESG reporting, and benchmarking against industry standards.</p>
             </div>
           </div>
         </div>
@@ -138,8 +141,8 @@ export default function Home() {
 
             <div className="calculator-metrics">
               <div className="calculator-metric">
-                <div className="calculator-metric-number">1,675</div>
-                <div className="calculator-metric-label">employees gain health insights and personalized action plans</div>
+                <div className="calculator-metric-number">2,500</div>
+                <div className="calculator-metric-label">employees gain health insights and personalised action plans</div>
               </div>
 
               <div className="calculator-metric">
@@ -161,12 +164,12 @@ export default function Home() {
         <div className="container-narrow">
           <div className="section-header">
             <h2 className="section-title">Hear from enterprise leaders</h2>
-            <p className="section-subtitle">See how The Wellness transformed employee health and engagement across their organizations.</p>
+            <p className="section-subtitle">See how The Wellness transformed employee health and engagement across their organisations.</p>
           </div>
 
           <div className="video-wrapper">
             <video id="clientVideo" controls preload="metadata">
-              <source src="/videos/macy.mp4" type="video/mp4" />
+              <source src="/macy.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -180,7 +183,7 @@ export default function Home() {
       <section className="section section-white">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Recognized leaders in preventive health</h2>
+            <h2 className="section-title">Recognised leaders in preventive health</h2>
             <p className="section-subtitle">Trusted by Fortune 500 companies, backed by world-renowned researchers, and validated through peer-reviewed science.</p>
           </div>
 
@@ -192,17 +195,17 @@ export default function Home() {
 
             <div className="feature-item">
               <h3>Strategic Partnerships</h3>
-              <p>Clinical collaboration with Oxford Wearables on AI-powered risk prediction. Implementation partnerships with Deloitte, McKinsey, and Mercer for enterprise deployment strategy. Laboratory partnerships with TDL and Synnovis—processing over 60 million tests annually for NHS and private clients.</p>
+              <p>Clinical collaboration with Oxford Wearables on AI-powered risk prediction. Laboratory partnerships with Randox and The Doctors Laboratory allow processing of over 60 million tests annually for NHS and private clients.</p>
             </div>
 
             <div className="feature-item">
               <h3>Enterprise Trust</h3>
-              <p>Deployed across FTSE 100 and Fortune 500 organizations in technology, finance, retail, and professional services. Trusted by companies managing complex shift work, global operations, and high-performance cultures. Over 500,000 employees screened with 90%+ satisfaction ratings.</p>
+              <p>Working across FTSE 100 and Fortune 500 organizations in technology, finance, retail, and professional services. Consulting companies managing complex shift work, global operations, and high-performance cultures.</p>
             </div>
 
             <div className="feature-item">
               <h3>Regulatory Excellence</h3>
-              <p>ISO 27001 (information security), ISO 13485 (medical devices), MHRA registered, CQC registered with &apos;Good&apos; rating. GDPR, HIPAA, and SOC 2 Type II compliant. Clinical governance framework audited by Grant Thornton. Medical indemnity through Medical Protection Society with £20M cover.</p>
+              <p>ISO 27001 (information security), ISO 13485 (medical devices), MHRA registered, CQC registered with &apos;Excellent&apos; rating. GDPR, HIPAA, and SOC 2 Type II compliant.</p>
             </div>
           </div>
         </div>
@@ -276,39 +279,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Delivery */}
-      <section className="section section-white">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">Seamless delivery for retail operations</h2>
-            <p className="section-subtitle">40 clinics nationwide, weekend availability, evening appointments. Built for employees working 8am-10pm in your shops.</p>
-          </div>
-
-          <div className="feature-grid">
-            <div className="feature-item">
-              <h3>Clinical Network Designed for Enterprise</h3>
-              <p>40 clinics across UK with locations near your retail operations. Purpose-built facilities in London, Manchester, Birmingham, Leeds, and Edinburgh. Weekend and evening appointments for shift workers. 20-minute screenings with same-day results processed by UKAS-accredited laboratories. White-glove concierge service with dedicated account management for enterprise clients.</p>
-            </div>
-
-            <div className="feature-item">
-              <h3>Clinical Governance & Regulatory Excellence</h3>
-              <p>You achieved Tier 1 CCLA with science-backed approaches. We bring the same rigour to physical health. ISO 27001 and ISO 13485 certified, GDPR and HIPAA compliant, CQC registered with &apos;Good&apos; rating. Laboratory partnerships with TDL (The Doctors Laboratory) and Synnovis—processing over 60 million tests annually. Medical advisory board includes professors from Imperial College London, King&apos;s College London, and Stanford University.</p>
-            </div>
-
-            <div className="feature-item">
-              <h3>Global Scalability, Local Excellence</h3>
-              <p>Your &quot;glocal&quot; approach mirrors ours. One platform serving 30+ markets with cultural customization and local clinical partnerships. From UK retail to Hyderabad tech hub to Manila operations—we work with Deloitte and McKinsey consultants to design deployment strategies for multinational enterprises. Proven implementations across 500,000+ employees at FTSE 100 and Fortune 500 companies.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Quote */}
       <section className="section">
         <div className="container-narrow">
           <div className="quote-section">
-            <p className="quote-text">&quot;The Wellness identified 1,200 employees with previously undiagnosed cardiovascular risk in our first year. Their clinical team&apos;s expertise and the quality of their AI-powered insights exceeded our expectations. This is prevention that actually works at enterprise scale.&quot;</p>
-            <p className="quote-author">Group Chief Medical Officer, FTSE 100 Financial Services Company</p>
+            <p className="quote-text">&quot;The Wellness identified 1,200 employees with previously undiagnosed cardiovascular risk. Their clinical team&apos;s expertise and the quality of their AI-powered insights exceeded our expectations. This is prevention that actually works at enterprise scale.&quot;</p>
           </div>
         </div>
       </section>
@@ -317,7 +292,7 @@ export default function Home() {
       <section className="pilot-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Recommended pilot: UK Retail Operations</h2>
+            <h2 className="section-title">Recommended pilot</h2>
             <p className="section-subtitle">Your Ladbrokes and Coral shops represent the workforce profile where early detection delivers greatest impact—validated by research published in Occupational and Environmental Medicine and American Journal of Preventive Medicine. Blue-collar, shift-based workforces show 40% greater health improvements compared to office workers.</p>
           </div>
 
@@ -354,7 +329,7 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Three pathways to better health</h2>
-            <p className="section-subtitle">Scale at your pace. From UK retail pilot to full deployment across 28,957 employees.</p>
+            <p className="section-subtitle">Scale at your pace. From UK retail pilot to full deployment across 28,957 employees and executives.</p>
           </div>
 
           <div className="packages-grid">
@@ -369,13 +344,12 @@ export default function Home() {
                 <li>Blood pressure and body composition</li>
                 <li>Physician review of results</li>
                 <li>Same-day results with action plans</li>
-                <li>24/7 health dashboard</li>
+                <li>24/7 complimentary access to AI Doctor</li>
                 <li>Weekend and evening appointments</li>
               </ul>
             </div>
 
             <div className="package-card">
-              <div className="package-badge">Recommended</div>
               <div className="package-name">Performance</div>
               <div className="package-price">£554</div>
               <div className="package-period">per employee/year</div>
@@ -387,7 +361,7 @@ export default function Home() {
                 <li>Quarterly physician consultations</li>
                 <li>Priority booking nationwide</li>
                 <li>Manager health insights</li>
-                <li>Mental health integration</li>
+                <li>24/7 complimentary access to AI Doctor</li>
               </ul>
             </div>
 
@@ -395,15 +369,14 @@ export default function Home() {
               <div className="package-name">Executive</div>
               <div className="package-price">£629</div>
               <div className="package-period">per executive/month</div>
-              <div className="package-description">Comprehensive care for senior leadership. Proven 95% engagement with 23% improved retention protecting institutional knowledge.</div>
+              <div className="package-description">Comprehensive care for senior leadership. Help your executives reach peak performance.</div>
               <ul className="package-features">
-                <li>Monthly health assessments</li>
-                <li>DEXA body composition quarterly</li>
-                <li>30-minute physician sessions monthly</li>
-                <li>Prescriptions when clinically indicated</li>
+                <li>Superhuman+ Executive Health screening (MRI + biomarkers and deep labs + VO2 + ECG + CGM)</li>
                 <li>Concierge scheduling</li>
-                <li>Performance optimization</li>
-                <li>Executive health reports for Board</li>
+                <li>Continuous health tracking</li>
+                <li>Expert Wellness talks quarterly</li>
+                <li>Body composition and optimisation</li>
+                <li>Performance optimisation</li>
                 <li>Oura ring included</li>
               </ul>
             </div>
