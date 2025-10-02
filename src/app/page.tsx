@@ -387,10 +387,19 @@ export default function Home() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>© 2025 The London Wellness Clinic Ltd. All rights reserved.</p>
-          <p>enterprise@thewellnesslondon.com · 020 7946 0958</p>
-          <p style={{ marginTop: '30px', opacity: 0.7 }}>ISO 27001 & ISO 13485 Certified | CQC Registered | MHRA Approved | GDPR & HIPAA Compliant</p>
-          <p style={{ marginTop: '10px', opacity: 0.7 }}>This proposal is confidential and prepared exclusively for Entain Group.</p>
+          <div className="footer-cta">
+            <h3>We look forward to our call</h3>
+            <p>Let's discuss how The Wellness can transform health outcomes for your 28,957 employees</p>
+            <a href="https://calendly.com/events/83ec06e1-4b7c-4f7c-b4c8-bd7d4f74ff21/google_meet" target="_blank" rel="noopener noreferrer" className="footer-cta-button">
+              Join Call →
+            </a>
+          </div>
+          <div className="footer-info">
+            <p>© 2025 The London Wellness Clinic Ltd. All rights reserved.</p>
+            <p>enterprise@thewellnesslondon.com · 020 7946 0958</p>
+            <p style={{ marginTop: '30px', opacity: 0.7 }}>ISO 27001 & ISO 13485 Certified | CQC Registered | MHRA Approved | GDPR & HIPAA Compliant</p>
+            <p style={{ marginTop: '10px', opacity: 0.7 }}>This proposal is confidential and prepared exclusively for Entain Group.</p>
+          </div>
         </div>
       </footer>
     </>
