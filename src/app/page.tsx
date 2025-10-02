@@ -389,7 +389,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-cta">
             <h3>We look forward to our call</h3>
-            <p>Let's discuss how The Wellness can transform health outcomes for your 28,957 employees</p>
+            <p>Let&apos;s discuss how The Wellness can transform health outcomes for your employees</p>
             <a href="https://calendly.com/events/83ec06e1-4b7c-4f7c-b4c8-bd7d4f74ff21/google_meet" target="_blank" rel="noopener noreferrer" className="footer-cta-button">
               Join Call →
             </a>
